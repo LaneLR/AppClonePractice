@@ -17,7 +17,7 @@ body {
 .topnav a {
   display: block;
   float: left;
-  text-align: center;  
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   color: white;
@@ -57,7 +57,8 @@ form {
   cursor: pointer;
 }
 
-h3, .thumbnail{ 
+h3,
+.thumbnail {
   cursor: pointer;
 }
 
