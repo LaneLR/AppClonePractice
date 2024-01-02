@@ -28,3 +28,48 @@ body {
 .search-container {
   float: right;
 }
+
+form {
+  background-color: #1e2a3f;
+  width: 200px;
+  height: 43px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#query {
+  background: #1e2a3f;
+  width: 100%;
+  height: 100%;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  align-items: center;
+  padding: 5px 8px;
+}
+
+.thumbnail {
+  height: 350px;
+  width: 280px;
+  border-radius: 20px;
+}
+
+h3, .thumbnail{ 
+  cursor: pointer;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  display: flex;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 8px;
+  text-align: center;
+  background-color: #1e2a3f;
+}
